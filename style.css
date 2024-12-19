@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+}
+th{
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #bbbbbb;
+    font-weight: bold;
+    font-size: large;
+}
+td{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #bbbbbb;
+}
